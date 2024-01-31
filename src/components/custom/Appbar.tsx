@@ -11,10 +11,10 @@ const Appbar = () => {
       <div>
         <Button
           onClick={() => {
-            Router.push("/login");
+            Router.push("/signup");
           }}
         >
-          Login
+          Signup
         </Button>
       </div>
     </div>

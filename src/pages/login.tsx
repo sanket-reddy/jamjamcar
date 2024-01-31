@@ -14,16 +14,16 @@ export default function () {
           <br></br>
           <Input placeholder="enter username"></Input>
           <br></br>
-          <Input placeholder="enter password"></Input>
-          <div className="flex justify-center">
-            <div>
-              <Button className="mt-3 ml-4 bg-green-700">LOGIN</Button>
-              <p>
-                new here{" "}
-                <Link href="signup" className="hover:text-red-500">
-                  Signup
-                </Link>
-              </p>
+          <Input placeholder="enter password" type="password"></Input>
+          <div className="flex justify-center ">
+            <div className="flex flex-col  items-center">
+              <Button className="mt-3 bg-green-700 hover:bg-green-900">
+                Login
+              </Button>
+              <p> Create an account ? </p>
+              <Link href="signup" className="hover:text-red-600">
+                Signup
+              </Link>
             </div>
           </div>
         </div>
